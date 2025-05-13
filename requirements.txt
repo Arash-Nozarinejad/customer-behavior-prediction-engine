@@ -1,3 +1,4 @@
+# Open requirements.txt in a text editor and replace its contents with:
 numpy
 pandas
 matplotlib
@@ -10,6 +11,7 @@ ipykernel
 plotly
 kaggle
 scipy
-surprise
+# surprise  <- commented out as it requires C++ build tools
 lightgbm
 shap
+# Fix: removed duplicate kaggle entry
